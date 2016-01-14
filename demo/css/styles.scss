@@ -1,0 +1,219 @@
+$adobe: #ff0000; 
+$alphabet: #ed1c24;
+$amazon: #ff9700;
+$android: #a4c639;
+$angularjs: #b52e31;
+$aol: #ff0b00;
+$apple: #737373;
+$archlinux: #1793d1;
+$behance: #1769ff;
+$bing: #ffb900;
+$blogger: #f57d00;
+$coke: #ed1c16;
+$digitalocean: #008bcf;
+$disqus: #2e9fff;
+$dribbble: #ea4c89;
+$dropbox: #007ee5;
+$drupal: #0077c0;
+$ebay: #083790;
+$envato: #82b541;
+$evernote: #7ac142;
+$facebook: #3b5998;
+$flickr: #ff0084;
+$flipboard: #e12828;
+$forrst: #5b9a68;
+$foursquare: #0072b1;
+$github: #333333;
+$godaddy: #7db701;
+$google_1: #4285f4;
+$google_2: #34a853;
+$google_3: #fbbc05;
+$google_4: #ea4335;
+$googleplus: #dd4b39;
+$gravatar: #1e8cbe;
+$hsbc: #db0011;
+$html5: #e34f26;
+$ibm: #006699;
+$imgur: #85bf25;
+$instagram: #125688;
+$intel: #0f7dc2;
+$jquery: #0769ad;
+$lastfm: #d51007;
+$linkedin: #007bb5;
+$mailchimp: #449a88;
+$mcdonalds: #bf0c0c;
+$mercadolibre: #ffe600;
+$microsoftoffice: #ea3e23;
+$netflix: #e50914;
+$npm: #cb3837;
+$nvidia: #76b900;
+$opera: #cc0f16;
+$oracle: #ff0000; 
+$paypal: #009cde;
+$php: #8892be;
+$pinterest: #cb2027;
+$prezi: #318bff;
+$quora: #a82400;
+$reddit: #cee3f8;
+$ruby: #cc342d;
+$skype: #00acf4;
+$snapchat: #fffc00;
+$spotify: #2ebd59;
+$stackoverflow: #fe7a15;
+$starbucks: #00704a;
+$strumbleupon: #eb4924;
+$subway: #00543d;
+$telegram: #0088cc;
+$tesla: #cc0000;
+$tmobile: #e20074;
+$tumblr: #32506d;
+$twitter: #00aced;
+$typekit: #98ce1e;
+$ubuntu: #dd4814;
+$vimeo: #162221;
+$vine: #00bf8f;
+$vk: #45668e;
+$vodafone: #e60000;
+$whatsapp: #43d854;
+$windows: #00bcf2;
+$wordpress: #21759b;
+$xbox: #52b043;
+$yahoo: #410093;
+$yandex: #ffcc00;
+$youtube: #bb0000;
+$zendesk: #78a300;
+
+$colorMap: (
+	adobe: $adobe,
+	alphabet: $alphabet,
+	amazon: $amazon,
+	android: $android,
+	angularjs: $angularjs,
+	aol: $aol,
+	apple: $apple,
+	archlinux: $archlinux,
+	behance: $behance,
+	bing: $bing,
+	blogger: $blogger,
+	coke: $coke,
+	digitalocean: $digitalocean,
+	disqus: $disqus,
+	dribbble: $dribbble,
+	dropbox: $dropbox,
+	drupal: $drupal,
+	ebay: $ebay,
+	envato: $envato,
+	evernote: $evernote,
+	facebook: $facebook,
+	flickr: $flickr,
+	flipboard: $flipboard,
+	forrst: $forrst,
+	foursquare: $foursquare,
+	github: $github,
+	godaddy: $godaddy,
+	google_1: $google_1,
+	google_2: $google_2,
+	google_3: $google_3,
+	google_4: $google_4,
+	googleplus: $googleplus,
+	gravatar: $gravatar,
+	hsbc: $hsbc,
+	html5: $html5,
+	ibm: $ibm,
+	imgur: $imgur,
+	instagram: $instagram,
+	intel: $intel,
+	jquery: $jquery,
+	lastfm: $lastfm,
+	linkedin: $linkedin,
+	mailchimp: $mailchimp,
+	mcdonalds: $mcdonalds,
+	mercadolibre: $mercadolibre,
+	microsoftoffice: $microsoftoffice,
+	netflix: $netflix,
+	npm: $npm,
+	nvidia: $nvidia,
+	opera: $opera,
+	oracle: $oracle,
+	paypal: $paypal,
+	php: $php,
+	pinterest: $pinterest,
+	prezi: $prezi,
+	quora: $quora,
+	reddit: $reddit,
+	ruby: $ruby,
+	skype: $skype,
+	snapchat: $snapchat,
+	spotify: $spotify,
+	stackoverflow: $stackoverflow,
+	starbucks: $starbucks,
+	strumbleupon: $strumbleupon,
+	subway: $subway,
+	telegram: $telegram,
+	tesla: $tesla,
+	tmobile: $tmobile,
+	tumblr: $tumblr,
+	twitter: $twitter,
+	typekit: $typekit,
+	ubuntu: $ubuntu,
+	vimeo: $vimeo,
+	vine: $vine,
+	vk: $vk,
+	vodafone: $vodafone,
+	whatsapp: $whatsapp,
+	windows: $windows,
+	wordpress: $wordpress,
+	xbox: $xbox,
+	yahoo: $yahoo,
+	yandex: $yandex,
+	youtube: $youtube,
+	zendesk: $zendesk
+	);
+
+@each $className, $classValue in $colorMap {
+	.#{$className} {
+		background: $classValue;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.color {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#color-block {
+	width: 25%;
+	height: 200px;
+	position: relative;
+	&:before {
+		content: attr(class);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		line-height: 200px;
+		color: white;
+		font-style: 15px;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 0px 1px 0px black;
+	}
+}
+footer {
+	text-align: center;
+	padding: 20px;
+	background: $vimeo;
+	p {
+		color: white;
+		a{
+			text-decoration: none;
+			color: white;
+			border-bottom: 1px dashed white;
+		}
+	}
+}
