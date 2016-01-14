@@ -1,3 +1,4 @@
+/* Social / Branding Vars HEX*/
 $adobe: #ff0000; 
 $alphabet: #ed1c24;
 $amazon: #ff9700;
@@ -82,6 +83,37 @@ $yahoo: #410093;
 $yandex: #ffcc00;
 $youtube: #bb0000;
 $zendesk: #78a300;
+
+/* Styles form Demo */
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.color {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#color-block {
+	width: 25%;
+	height: 200px;
+	position: relative;
+	&:before {
+		content: attr(class);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		line-height: 200px;
+		color: white;
+		font-style: 15px;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 0px 1px 0px black;
+	}
+}
 
 $colorMap: (
 	adobe: $adobe,
@@ -176,34 +208,6 @@ $colorMap: (
 	}
 }
 
-body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-.color {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-}
-#color-block {
-	width: 25%;
-	height: 200px;
-	position: relative;
-	&:before {
-		content: attr(class);
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		line-height: 200px;
-		color: white;
-		font-style: 15px;
-		text-transform: uppercase;
-		font-weight: bold;
-		text-shadow: 0px 1px 0px black;
-	}
-}
 footer {
 	text-align: center;
 	padding: 20px;
