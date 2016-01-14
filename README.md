@@ -1,5 +1,5 @@
 # Social / Brand Colors
-**84 SASS Variables** of brand / social colors. SASS Ready
+**84  brand / social colors**. SASS Ready
 
 ## Variety 
 
