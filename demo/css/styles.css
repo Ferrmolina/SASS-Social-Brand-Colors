@@ -1,0 +1,395 @@
+.adobe {
+  background: #ff0000;
+}
+
+.alphabet {
+  background: #ed1c24;
+}
+
+.amazon {
+  background: #ff9700;
+}
+
+.android {
+  background: #a4c639;
+}
+
+.angularjs {
+  background: #b52e31;
+}
+
+.aol {
+  background: #ff0b00;
+}
+
+.apple {
+  background: #737373;
+}
+
+.archlinux {
+  background: #1793d1;
+}
+
+.behance {
+  background: #1769ff;
+}
+
+.bing {
+  background: #ffb900;
+}
+
+.blogger {
+  background: #f57d00;
+}
+
+.coke {
+  background: #ed1c16;
+}
+
+.digitalocean {
+  background: #008bcf;
+}
+
+.disqus {
+  background: #2e9fff;
+}
+
+.dribbble {
+  background: #ea4c89;
+}
+
+.dropbox {
+  background: #007ee5;
+}
+
+.drupal {
+  background: #0077c0;
+}
+
+.ebay {
+  background: #083790;
+}
+
+.envato {
+  background: #82b541;
+}
+
+.evernote {
+  background: #7ac142;
+}
+
+.facebook {
+  background: #3b5998;
+}
+
+.flickr {
+  background: #ff0084;
+}
+
+.flipboard {
+  background: #e12828;
+}
+
+.forrst {
+  background: #5b9a68;
+}
+
+.foursquare {
+  background: #0072b1;
+}
+
+.github {
+  background: #333333;
+}
+
+.godaddy {
+  background: #7db701;
+}
+
+.google_1 {
+  background: #4285f4;
+}
+
+.google_2 {
+  background: #34a853;
+}
+
+.google_3 {
+  background: #fbbc05;
+}
+
+.google_4 {
+  background: #ea4335;
+}
+
+.googleplus {
+  background: #dd4b39;
+}
+
+.gravatar {
+  background: #1e8cbe;
+}
+
+.hsbc {
+  background: #db0011;
+}
+
+.html5 {
+  background: #e34f26;
+}
+
+.ibm {
+  background: #006699;
+}
+
+.imgur {
+  background: #85bf25;
+}
+
+.instagram {
+  background: #125688;
+}
+
+.intel {
+  background: #0f7dc2;
+}
+
+.jquery {
+  background: #0769ad;
+}
+
+.lastfm {
+  background: #d51007;
+}
+
+.linkedin {
+  background: #007bb5;
+}
+
+.mailchimp {
+  background: #449a88;
+}
+
+.mcdonalds {
+  background: #bf0c0c;
+}
+
+.mercadolibre {
+  background: #ffe600;
+}
+
+.microsoftoffice {
+  background: #ea3e23;
+}
+
+.netflix {
+  background: #e50914;
+}
+
+.npm {
+  background: #cb3837;
+}
+
+.nvidia {
+  background: #76b900;
+}
+
+.opera {
+  background: #cc0f16;
+}
+
+.oracle {
+  background: #ff0000;
+}
+
+.paypal {
+  background: #009cde;
+}
+
+.php {
+  background: #8892be;
+}
+
+.pinterest {
+  background: #cb2027;
+}
+
+.prezi {
+  background: #318bff;
+}
+
+.quora {
+  background: #a82400;
+}
+
+.reddit {
+  background: #cee3f8;
+}
+
+.ruby {
+  background: #cc342d;
+}
+
+.skype {
+  background: #00acf4;
+}
+
+.snapchat {
+  background: #fffc00;
+}
+
+.spotify {
+  background: #2ebd59;
+}
+
+.stackoverflow {
+  background: #fe7a15;
+}
+
+.starbucks {
+  background: #00704a;
+}
+
+.strumbleupon {
+  background: #eb4924;
+}
+
+.subway {
+  background: #00543d;
+}
+
+.telegram {
+  background: #0088cc;
+}
+
+.tesla {
+  background: #cc0000;
+}
+
+.tmobile {
+  background: #e20074;
+}
+
+.tumblr {
+  background: #32506d;
+}
+
+.twitter {
+  background: #00aced;
+}
+
+.typekit {
+  background: #98ce1e;
+}
+
+.ubuntu {
+  background: #dd4814;
+}
+
+.vimeo {
+  background: #162221;
+}
+
+.vine {
+  background: #00bf8f;
+}
+
+.vk {
+  background: #45668e;
+}
+
+.vodafone {
+  background: #e60000;
+}
+
+.whatsapp {
+  background: #43d854;
+}
+
+.windows {
+  background: #00bcf2;
+}
+
+.wordpress {
+  background: #21759b;
+}
+
+.xbox {
+  background: #52b043;
+}
+
+.yahoo {
+  background: #410093;
+}
+
+.yandex {
+  background: #ffcc00;
+}
+
+.youtube {
+  background: #bb0000;
+}
+
+.zendesk {
+  background: #78a300;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.color {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+}
+
+#color-block {
+  width: 25%;
+  height: 200px;
+  position: relative;
+}
+
+#color-block:before {
+  content: attr(class);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 200px;
+  color: white;
+  font-style: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px black;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #162221;
+}
+
+footer p {
+  color: white;
+}
+
+footer p a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px dashed white;
+}
