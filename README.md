@@ -1,5 +1,5 @@
-# Social / Branding Colors
-**85 SASS Variables** of branding / social colors.
+# Social / Brand Colors
+**84 SASS Variables** of brand / social colors. SASS Ready
 
 ## Variety 
 
@@ -9,7 +9,7 @@
 - HSL *(Hue, Saturation, Lightness)*
 - HSLA *(Hue, Saturation, Lightness, Alpha)*
 
-## Demo
-[Live Demo](http://www.fmolina.me/SASS-Var-Branding-Colors/)
+## [Live Demo](http://www.fmolina.me/SASS-Var-Branding-Colors/)
 
+## Screenshot Demo
 ![Screenshot Demo](/demo/screenshot-colors.png?raw=true "Screenshot Demo")
