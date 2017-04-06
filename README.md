@@ -9,7 +9,7 @@
 - HSL *(Hue, Saturation, Lightness)*
 - HSLA *(Hue, Saturation, Lightness, Alpha)*
 
-## - [Live Demo](http://www.fmolina.me/brand-colors/)
+## - [Live Demo](http://www.fmolina.me/projects/brand-colors/)
 
 ## Screenshot Demo
 ![Screenshot Demo](/demo/screenshot-colors.png?raw=true "Screenshot Demo")
